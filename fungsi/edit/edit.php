@@ -87,7 +87,7 @@ if (!empty($_SESSION['admin'])) {
             // echo "You can only upload JPG, PNG and GIF file";
             // echo "<font face='Verdana' size='2' ><BR><BR><BR>
             // 		<a href='../../index.php?page=user'>Back to upform</a><BR>";
-            echo '<script>alert("You can only upload JPG, PNG and GIF file");window.location="../../index.php?page=user"</script>';
+            echo '<script>alert("You can only upload JPG, PNG and GIF file and hahahah");window.location="../../index.php?page=user"</script>';
         } elseif (round($_FILES['foto']["size"] / 1024) > 4096) {
             // echo "WARNING !!! Besar Gambar Tidak Boleh Lebih Dari 4 MB";
             // echo "<font face='Verdana' size='2' ><BR><BR><BR>
